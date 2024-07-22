@@ -1,5 +1,6 @@
 import { About } from "@/components/about";
 import { CardPresentation } from "@/components/card/cardPresentation";
+import { FAQ } from "@/components/FAQ";
 import { Features } from "@/components/features";
 import Footer from "@/components/footer";
 import { Hero } from "@/components/hero";
@@ -36,6 +37,7 @@ export default function Home() {
         <Features />
         <Services />
         <Team />
+        <FAQ />
       </div>
       <Footer  />
     </main>

@@ -28,9 +28,9 @@ const Navbar: React.FC = async () => {
     <header className="sticky top-0 flex h-16 z-10 items-center gap-1 border-b bg-background backdrop-blur supports-[backdrop-filter]:bg-background/60 px-4 md:px-6">
       <Link
         href="/"
-        className="flex items-center gap-6 text-lg font-semibold md:text-base"
+        className="flex items-center gap-6 text-lg font-semibold md:text-base w-full"
       >
-        <span className="font-semibold">Web master</span>
+        <span className="font-semibold">Mada Web master</span>
       </Link>
       <NavbarSheet pages={pages} />
 

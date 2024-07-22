@@ -13,7 +13,7 @@ const Footer = () => {
             href={`#`}
           >
             <Typography variant="h1" color='secondary' className='capitalize bg-gradient-to-b from-primary/60 to-primary text-transparent bg-clip-text'>
-              Webmaster
+              Mada Web Masters
             </Typography>
           </Link>
         </div>
