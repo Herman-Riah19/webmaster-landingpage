@@ -16,7 +16,7 @@ export default function Home() {
       <Navbar />
       <div>
         <Hero />
-        <div className="m-20 p-20">
+        <div className="lg:m-20 lg:p-20 sm:p-2 sm:m-2">
           <CardPresentation>
             <h2 className="text-3xl md:text-4xl font-bold">
               <span className="bg-gradient-to-b from-primary/60 to-primary text-transparent bg-clip-text">
