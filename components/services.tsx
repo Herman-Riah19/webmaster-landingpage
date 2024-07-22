@@ -53,7 +53,7 @@ import { Bell, Calendar, FileInputIcon, FileText, Globe } from "lucide-react";
   
 export async function Services() {
     return (
-      <div className="m-20 p-20">
+      <div className="lg:m-20 lg:p-20 sm:p-2 sm:m-2">
         <BentoGrid className="lg:grid-rows-3">
         {features.map((feature) => (
           <BentoCard key={feature.name} {...feature} />
