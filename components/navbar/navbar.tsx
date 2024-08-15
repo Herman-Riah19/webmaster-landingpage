@@ -1,26 +1,53 @@
-import React from "react";
+"use client"
+import React, { useEffect } from "react";
 import DarkTheme from "@/components/dark-theme";
 import Link from "next/link";
-import { Button } from "@/components/ui/button";
 import NavbarSheet from "./navbar-sheet";
+import { Avatar, AvatarFallback, AvatarImage } from "@/components/ui/avatar";
 
 const Navbar: React.FC = async () => {
+
+  useEffect(() => {
+    const links = document.querySelectorAll('.nav-link');
+
+    links.forEach(link => {
+      link.addEventListener('click', (event) => {
+        event.preventDefault();
+
+        const targetId = link.getAttribute('href').substring(1);
+        const targetElement = document.getElementById(targetId);
+
+        if (targetElement) {
+          targetElement.scrollIntoView({ behavior: 'smooth', block: 'start' });
+        }
+      });
+    });
+  }, []);
+
   const pages = [
     {
-      name: 'Products',
-      link: ``,
+      name: 'Acceuil',
+      link: `#home`,
     },
     {
-      name: "Pricing",
-      link: `/`,
+      name: 'A propos',
+      link: `#about`,
     },
     {
-      name: "About",
-      link: `/`,
+      name: 'Features',
+      link: `#features`,
+    },
+    {
+      name: 'Services',
+      link: `#services`,
+    },
+    {
+      name: "Team",
+      link: `#team`,
     },
     {
       name: "Contact",
-      link: `/`,
+      link: `#newsletter`,
     },
   ];
 
@@ -30,22 +57,26 @@ const Navbar: React.FC = async () => {
         href="/"
         className="flex items-center gap-6 text-lg font-semibold md:text-base w-full"
       >
-        <span className="font-semibold">Mada Web master</span>
+        <Avatar>
+          <AvatarImage src="/assets/logo.jpg" />
+          <AvatarFallback>Mada Web Masters</AvatarFallback>
+        </Avatar>
+        <span className="font-semibold sm:hidden md:block">Mada Web Masters</span>
       </Link>
-      <NavbarSheet pages={pages} />
 
+      <NavbarSheet pages={pages} />
       <nav className="flex flex-col text-lg font-medium sm:hidden md:flex justify-end md:flex-row md:items-center md:gap-3 md:text-sm lg:gap-6">
         {pages.map((page) => (
           <Link
             key={page.name}
             href={page.link}
-            className="text-muted-foreground transition-colors hover:text-foreground w-[4vw]"
+            className="nav-link text-muted-foreground transition-colors hover:text-foreground w-[8vw]"
           >
             {page.name}
           </Link>
         ))}
       </nav>
-
+      
       <div className="flex w-full justify-end gap-4 md:ml-auto md:gap-2 lg:gap-4">
         <DarkTheme />
       </div>

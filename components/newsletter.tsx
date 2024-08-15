@@ -1,5 +1,6 @@
-import { Button } from "./ui/button";
-import { Input } from "./ui/input";
+"use client"
+import { Button } from "@/components/ui/button";
+import { Input } from "@/components/ui/input";
 
 export const Newsletter = () => {
   const handleSubmit = (e: any) => {
@@ -31,7 +32,7 @@ export const Newsletter = () => {
             className="bg-muted/50 dark:bg-muted/80 "
             aria-label="email"
           />
-          <Button>Subscribe</Button>
+          <Button type="submit">Subscribe</Button>
         </form>
       </div>
 

@@ -53,7 +53,7 @@ const features = [
 
 export async function Services() {
   return (
-    <div className="lg:m-20 lg:p-20 sm:p-2 sm:m-2 text-center">
+    <div id="services" className="lg:m-20 lg:p-20 sm:p-2 sm:m-2 text-center">
       <h2 className="text-3xl md:text-4xl font-bold ">
         How It{" "}
         <span className="bg-gradient-to-b from-primary/60 to-primary text-transparent bg-clip-text">

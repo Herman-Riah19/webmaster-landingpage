@@ -21,7 +21,7 @@ const NavbarSheet: React.FC<NavSheetProps> = ({ pages }) => {
     }
 
     return (
-        <div className="flex w-full items-center gap-4 md:ml-auto md:gap-2 lg:gap-8">
+        <div className="flex w-25 items-center gap-4 md:ml-auto md:gap-2 lg:gap-8">
             <Sheet open={open}>
                 <SheetTrigger asChild>
                     <Button
