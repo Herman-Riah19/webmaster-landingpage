@@ -48,7 +48,7 @@ const NavbarSheet: React.FC<NavSheetProps> = ({ pages }) => {
                             <Button
                                 key={page.name}
                                 variant="destructive"
-                                className="text-primary hover:text-foreground m-0 bg-transparent "
+                                className="nav-link text-primary hover:text-foreground m-0 bg-transparent "
                                 onClick={e => {
                                     e.preventDefault()
                                     handleClose(page.link)

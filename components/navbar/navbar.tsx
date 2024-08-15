@@ -70,7 +70,7 @@ const Navbar: React.FC = async () => {
           <Link
             key={page.name}
             href={page.link}
-            className="nav-link text-muted-foreground transition-colors hover:text-foreground w-[8vw]"
+            className="nav-link text-muted-foreground transition-colors hover:text-foreground w-[4vw]"
           >
             {page.name}
           </Link>
