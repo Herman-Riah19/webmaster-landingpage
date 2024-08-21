@@ -5,8 +5,8 @@ import { Bell, Calendar, FileInputIcon, FileText, Globe } from "lucide-react";
 const features = [
   {
     Icon: FileText,
-    name: "Save your files",
-    description: "We automatically save your files as you type.",
+    name: "Conception et développement de sites web",
+    description: "Des sites modernes, réactifs et entièrement personnalisés pour refléter votre marque et captiver votre audience.",
     href: "/",
     cta: "Learn more",
     background: <img className="absolute -right-20 -top-20 opacity-60" />,
