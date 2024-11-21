@@ -10,7 +10,7 @@ export const About = () => {
         
         <div className="px-6 flex flex-col-reverse md:flex-row gap-8 md:gap-12">
           <img
-            src="/assets/landing-page.png"
+            src="/assets/technik.jpg"
             alt=""
             className="w-[300px] object-contain rounded-lg"
           />
