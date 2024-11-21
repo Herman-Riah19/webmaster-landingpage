@@ -16,22 +16,19 @@ interface FeatureProps {
 
 const features: FeatureProps[] = [
   {
-    title: "Responsive Design",
-    description:
-      "Lorem ipsum dolor sit amet consectetur adipisicing elit. Nisi nesciunt est nostrum omnis ab sapiente.",
-    image: "/assets/growth.png",
+    title: "Des designs modernes et réactifs",
+    description: "Nous concevons des sites web esthétiques et performants, accessibles sur tous les appareils.",
+    image: "/assets/landing-page.png",
   },
   {
-    title: "Intuitive user interface",
-    description:
-      "Lorem ipsum dolor sit amet consectetur adipisicing elit. Nisi nesciunt est nostrum omnis ab sapiente.",
-    image: "/assets/reflecting.png",
+    title: "Expertise technique de pointe",
+    description: "Notre équipe maîtrise les dernières technologies pour garantir des performances optimales.",
+    image: "/assets/dev-web.jpg",
   },
   {
-    title: "AI-Powered insights",
-    description:
-      "Lorem ipsum dolor sit amet consectetur adipisicing elit. Nisi nesciunt est nostrum omnis ab sapiente.",
-    image: "/assets/looking-ahead.png",
+    title: "Une approche personnalisé",
+    description: "Chaque projet est unique, tout comme nos solutions. Nous nous adaptons à votre vision et à vos objectifs.",
+    image: "/assets/test-web.jpg",
   },
 ];
 
@@ -54,9 +51,9 @@ export const Features = () => {
       className="container py-24 sm:py-32 space-y-8"
     >
       <h2 className="text-3xl lg:text-4xl font-bold md:text-center">
-        Many{" "}
+        Pourquoi choisir{" "}
         <span className="bg-gradient-to-b from-primary/60 to-primary text-transparent bg-clip-text">
-          Great Features
+          Mada Web Masters ?
         </span>
       </h2>
 

@@ -18,14 +18,11 @@ export const About = () => {
             <div className="pb-6">
               <h2 className="text-3xl md:text-4xl font-bold">
                 <span className="bg-gradient-to-b from-primary/60 to-primary text-transparent bg-clip-text">
-                  About{" "}
+                  Mada Web Master{" "}
                 </span>
-                Company
               </h2>
               <p className="text-xl text-muted-foreground mt-4">
-              Chez Mada Web Master, nous transformons vos idées en réalité digitale. 
-              Que vous soyez une petite entreprise, une start-up ou une grande organisation, 
-              nous sommes là pour vous accompagner dans la création, la gestion et l'optimisation de votre présence en ligne.
+              Transformez vos idées en projets web innovants avec Mada Web Masters, une équipe de freelances spécialisés en développement web. Nous créons des sites web sur mesure pour répondre à vos besoins spécifiques, renforcer votre image de marque et engager votre audience.
               </p>
             </div>
 
