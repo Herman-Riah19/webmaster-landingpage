@@ -63,7 +63,6 @@ const FAQList: FAQProps[] = [
   },
 ];
 
-/* eslint-disable react/no-unescaped-entities */
 export const FAQ = () => {
   return (
     <section
