@@ -23,7 +23,7 @@ interface SociaNetworkslProps {
 
 const teamList: TeamProps[] = [
   {
-    imageUrl: "/assets/profile/maou.jpg",
+    imageUrl: "/assets/profile/manou.jpg",
     name: "Manu Rabearizaka",
     position: "Chef de projet",
     socialNetworks: [
