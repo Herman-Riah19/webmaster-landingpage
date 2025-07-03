@@ -32,6 +32,10 @@ const teamList: TeamProps[] = [
         name: "Facebook",
         url: "https://web.facebook.com/manu.rabeharizaka",
       },
+      {
+        name: "Instagram",
+        url: "https://www.instagram.com/mrabeharizaka/",
+      },
     ],
   },
   {

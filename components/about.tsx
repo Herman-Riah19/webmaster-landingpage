@@ -1,5 +1,3 @@
-import { Statistics } from "@/components/Statistics";
-
 export const About = () => {
   return (
     <section
@@ -25,8 +23,6 @@ export const About = () => {
               Transformez vos idées en projets web innovants avec Mada Web Masters, une équipe de freelances spécialisés en développement web. Nous créons des sites web sur mesure pour répondre à vos besoins spécifiques, renforcer votre image de marque et engager votre audience.
               </p>
             </div>
-
-            <Statistics />
           </div>
         </div>
       </div>
